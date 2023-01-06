@@ -1,0 +1,101 @@
+1)
+
+public class Test {
+	
+		public static void findLargestAndSmallestNumber(int a[]) {
+			int smallest= a[0];
+			int largest = a[0];
+			
+			for(int index =1 ; index < a.length ; index++) {
+				
+				if(a[index] > largest) {
+					largest = a[index];	
+				}
+				else if(a[index] < smallest) {
+					smallest = a[index];	
+				}
+				
+			}
+			
+			System.out.println("The maximum number is: "  + largest);
+			System.out.println("The minimum number is: " + smallest);
+		}
+		
+		public static void main(String[] args) {
+			
+			int a[] = {45, 333 , 76, 29, 900, 23, 474, 654, 29, 454};
+	
+			findLargestAndSmallestNumber(a);
+			
+		}
+	}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)
+
+public class Love {
+	
+	public static void main(String[] a) {
+		int b=1;
+		System.out.println("Check they are in love or not");
+		Scanner sc= new Scanner(System.in);
+		b=sc.nextInt();
+		
+		
+		if(b%2==0) {
+			System.out.println("They are not in Love");
+		}
+		else {
+			System.out.println("they are in love");
+		}
+		
+	}
+
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)
+Generalization involves multiple entities and combines them into a generalized entity. 
+Specialization involves a single entity broken down into multiple sub-entities.
+
+Generalization process starts with the number of entity sets and it creates high-level entity with the help of some common features.
+Specialization is reverse of Generalization. Specialization is a process of taking a subset of a higher level entity set to form a lower-level entity set. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4 a)
+By using the final keyword with class we can inherit the any other classes.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4 b)
+By using interfaces provide an alternative to multiple inheritance.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)
+CompareTo method.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6)ArrayList internally uses a dynamic array to store its elements.
+LinkedList uses Doubly Linked List to store its elements.
+
+ArrayList is faster in storing and accessing data.
+LinkedList is faster in manipulation of data.
+
+ArrayList is slow as array manipulation is slower.
+LinkedList is faster being node based as not much bit shifting required.
+
+ArrayList implements only List.
+LinkedList implements List as well as Queue. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7)
+. ListIterator can help to replace an element whereas Iterator cannot. 
+. Iterator can traverse only in forward direction whereas ListIterator traverses both in forward and backward directions. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9) 
+When a program caused memory to become inaccessible, that memory "leaked" out of the pool.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11)
+By making the properties as a private keyword.
+
